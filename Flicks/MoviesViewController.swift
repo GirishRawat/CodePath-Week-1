@@ -18,7 +18,6 @@ class MoviesViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.delegate = self
         tableView.dataSource = self
         
-        
         let apiKey = "e9cf6e129ca75a532e8bc00d836cdc67"
         let url = URL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")!
         let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData, timeoutInterval: 10)
@@ -53,12 +52,20 @@ class MoviesViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
         
         let movie = movies![indexPath.row]
         let title = movie["title"] as! String
+        let overview = movie["overview"] as! String
+        let posterPath = movie["poster_path"] as! String
         
-        cell.textLabel!.text = title
+        let baseURL = "https://image.tmdb.org/t/p/w500"
+        let imageURL = NSURL(string: baseURL + posterPath)
+        
+        
+        cell.titleLabel.text = title
+        cell.overviewLabel.text = overview
+        
         print ("row \(indexPath.row)")
         return cell
     }
