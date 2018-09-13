@@ -1,8 +1,8 @@
-# Project 1 - *flix_path*
+# Week 1 - *Flix*
 
-**flix_path** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flix** is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **10** hours spent in total
+Time spent: **9** hours spent in total
 
 ## User Stories
 
@@ -37,9 +37,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/GX0SiVP.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <img src='https://i.imgur.com/Z56qHX3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-<img src='https://i.imgur.com/KRjKq8G.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Here's a walkthrough of implemented optional stories:
+## Optional stories:
 
 <img src='https://i.imgur.com/yThXyUT.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
@@ -51,7 +50,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Girish Rawat]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -65,9 +64,9 @@ Describe any challenges encountered while building the app.
     See the License for the specific language governing permissions and
     limitations under the License.
     
-# Project 2 - *flix_path*
+# Week 2 - *Flix*
 
-**flix_path** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+**Flix** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 Time spent: **6** hours spent in total
 
@@ -110,7 +109,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Girish Rawat]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
