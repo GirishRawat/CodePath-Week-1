@@ -48,6 +48,8 @@ class DetailViewController: UIViewController {
             let posterpathURL  = URL(string: baseURLString + posterPathString)!
             posterImageView.af_setImage(withURL: posterpathURL)
             
+            overviewLabel.contentMode = .scaleToFill
+            overviewLabel.numberOfLines = 0
         }
 
         
